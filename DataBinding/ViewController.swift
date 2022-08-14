@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressedButton(_ sender: Any) {
-        
+        viewModel.showData()
     }
 }
 
