@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import Combine
 
-class CatViewModel {
+class CatViewModel: ObservableObject {
     
     var didChangeData: ((CatViewModel) -> Void)?
     
@@ -18,14 +19,17 @@ class CatViewModel {
     }
     
     var age: Observable<Int> = Observable(value: 0)
+    @Published var color: String
     
     init(cat: Cat) {
         self.name = cat.name
         self.age.value = 0
+        self.color = "Brown"
     }
     
     func showData() {
         self.name = "Simba"
         self.age.value = 5
+        self.color = "Red"
     }
 }

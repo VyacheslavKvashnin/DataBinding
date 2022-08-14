@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class ViewController: UIViewController {
     
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var threeLabel: UILabel!
     
     var viewModel: CatViewModel!
+    var cancellabel: Set<AnyCancellable> = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,11 @@ class ViewController: UIViewController {
         viewModel.age.bind { age in
             self.twoLabel.text = String(age)
         }
+        
+        viewModel.$color
+            .compactMap { String($0) }
+            .assign(to: \.text, on: threeLabel)
+            .store(in: &cancellabel)
     }
     
     @IBAction func pressedButton(_ sender: Any) {
