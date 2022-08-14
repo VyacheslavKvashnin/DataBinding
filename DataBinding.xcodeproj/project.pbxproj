@@ -15,6 +15,7 @@
 		BD96A76628A9771D002B94D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96A76428A9771D002B94D5 /* LaunchScreen.storyboard */; };
 		BD96A76E28A97741002B94D5 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A76D28A97741002B94D5 /* Cat.swift */; };
 		BD96A77028A977B2002B94D5 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A76F28A977B2002B94D5 /* CatViewModel.swift */; };
+		BD96A77228A97EDC002B94D5 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A77128A97EDC002B94D5 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BD96A76728A9771D002B94D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD96A76D28A97741002B94D5 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		BD96A76F28A977B2002B94D5 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		BD96A77128A97EDC002B94D5 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				BD96A75928A9771A002B94D5 /* AppDelegate.swift */,
 				BD96A75B28A9771A002B94D5 /* SceneDelegate.swift */,
+				BD96A77128A97EDC002B94D5 /* Observable.swift */,
 				BD96A75D28A9771A002B94D5 /* ViewController.swift */,
 				BD96A76D28A97741002B94D5 /* Cat.swift */,
 				BD96A76F28A977B2002B94D5 /* CatViewModel.swift */,
@@ -148,6 +151,7 @@
 				BD96A75E28A9771A002B94D5 /* ViewController.swift in Sources */,
 				BD96A75A28A9771A002B94D5 /* AppDelegate.swift in Sources */,
 				BD96A77028A977B2002B94D5 /* CatViewModel.swift in Sources */,
+				BD96A77228A97EDC002B94D5 /* Observable.swift in Sources */,
 				BD96A75C28A9771A002B94D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

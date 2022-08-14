@@ -17,11 +17,15 @@ class CatViewModel {
         }
     }
     
+    var age: Observable<Int> = Observable(value: 0)
+    
     init(cat: Cat) {
         self.name = cat.name
+        self.age.value = 0
     }
     
     func showData() {
         self.name = "Simba"
+        self.age.value = 5
     }
 }

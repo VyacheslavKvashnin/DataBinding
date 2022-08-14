@@ -23,8 +23,12 @@ class ViewController: UIViewController {
     }
     
     func setBindings() {
-        viewModel.didChangeData = { [ unowned self] viewModel in
+        viewModel.didChangeData = { [unowned self] viewModel in
             self.oneLabel.text = viewModel.name
+        }
+        
+        viewModel.age.bind { age in
+            self.twoLabel.text = String(age)
         }
     }
     
