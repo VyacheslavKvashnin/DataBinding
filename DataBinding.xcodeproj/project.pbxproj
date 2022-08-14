@@ -13,6 +13,7 @@
 		BD96A76128A9771A002B94D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96A75F28A9771A002B94D5 /* Main.storyboard */; };
 		BD96A76328A9771D002B94D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96A76228A9771D002B94D5 /* Assets.xcassets */; };
 		BD96A76628A9771D002B94D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96A76428A9771D002B94D5 /* LaunchScreen.storyboard */; };
+		BD96A76E28A97741002B94D5 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A76D28A97741002B94D5 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD96A76228A9771D002B94D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD96A76528A9771D002B94D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD96A76728A9771D002B94D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD96A76D28A97741002B94D5 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BD96A75928A9771A002B94D5 /* AppDelegate.swift */,
 				BD96A75B28A9771A002B94D5 /* SceneDelegate.swift */,
 				BD96A75D28A9771A002B94D5 /* ViewController.swift */,
+				BD96A76D28A97741002B94D5 /* Cat.swift */,
 				BD96A75F28A9771A002B94D5 /* Main.storyboard */,
 				BD96A76228A9771D002B94D5 /* Assets.xcassets */,
 				BD96A76428A9771D002B94D5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD96A76E28A97741002B94D5 /* Cat.swift in Sources */,
 				BD96A75E28A9771A002B94D5 /* ViewController.swift in Sources */,
 				BD96A75A28A9771A002B94D5 /* AppDelegate.swift in Sources */,
 				BD96A75C28A9771A002B94D5 /* SceneDelegate.swift in Sources */,
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
